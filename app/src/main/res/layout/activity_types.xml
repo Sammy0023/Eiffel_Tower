@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_tower_main"
+    tools:context=".TypesActivity">
+
+    <TextView
+        android:id="@+id/eiffelTowerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eiffel Tower"
+        android:layout_marginTop="60dp"
+        android:textSize="34sp"
+        android:textColor="#FFC107"
+        android:fontFamily="@font/glegoo_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/photosButton"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/bg_textview"
+        android:fontFamily="@font/glegoo_bold"
+        android:gravity="center"
+        android:text="Photos"
+        android:textColor="#FFC107"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eiffelTowerTextView" />
+
+    <TextView
+        android:id="@+id/infoButton"
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/bg_textview"
+        android:fontFamily="@font/glegoo_bold"
+        android:gravity="center"
+        android:text="Information"
+        android:textColor="#FFC107"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eiffelTowerTextView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
